@@ -1,0 +1,39 @@
+node-glogg (1.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * Add build dependency to node-has (Closes: #978298)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 27 Dec 2020 09:04:56 +0100
+
+node-glogg (1.0.2-1) unstable; urgency=medium
+
+  [ Abraham Raji ]
+  * Team Upload
+  * New upstream version 1.0.2
+  * Changed from Anonscm to Salsa
+  * Bumped standards version to 4.5.0
+  * Changed install path to usr/share/ in debian/install
+  * Changed to debhelper-compat and bumped version to 12
+  * whitespaces fix
+  * No root required
+  * whitespaces and https
+  * Added Upstream Metadata file
+
+  [ Xavier Guimard ]
+  * Add debian/gbp.conf
+  * Fix copyright
+  * Use pkg-js-tools auto install
+  * Embed some little modules for test only
+  * Enable upstream test using mocha
+
+ -- Abraham Raji <avronr@tuta.io>  Mon, 30 Mar 2020 01:11:09 +0000
+
+node-glogg (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #846904)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 04 Dec 2016 11:42:54 +0530
