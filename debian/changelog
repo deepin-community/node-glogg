@@ -1,3 +1,35 @@
+node-glogg (2.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-glogg: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 07 Dec 2022 23:26:23 +0000
+
+node-glogg (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * Drop embedded test modules and ad patch for expect >= 28
+  * New upstream version 2.0.0
+
+ -- Yadd <yadd@debian.org>  Tue, 26 Jul 2022 09:32:12 +0200
+
+node-glogg (1.0.2-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jenkins ]
+  * Remove constraints unnecessary since stretch.
+
+  [ Yadd ]
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Update lintian overrides
+
+ -- Yadd <yadd@debian.org>  Mon, 29 Nov 2021 21:58:55 +0100
+
 node-glogg (1.0.2-2) unstable; urgency=medium
 
   * Team upload

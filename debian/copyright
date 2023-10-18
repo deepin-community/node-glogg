@@ -4,23 +4,12 @@ Upstream-Contact: https://github.com/undertakerjs/glogg/issues
 Source: https://github.com/undertakerjs/glogg#readme
 
 Files: *
-Copyright: 2014-2018 Blaine Bublitz <blaine@iceddev.com> (https://iceddev.com/)
+Copyright: 2014-2022 Blaine Bublitz <blaine@iceddev.com> (https://iceddev.com/)
 License: Expat
 
 Files: debian/*
 Copyright: 2016 Pirate Praveen <praveen@debian.org>
-License: Expat
-
-Files: debian/tests/test_modules/*
-Copyright: 2014-2019 Jordan Harband
-License: Expat
-
-Files: debian/tests/test_modules/is-map/*
- debian/tests/test_modules/is-set/*
- debian/tests/test_modules/is-weakmap/*
- debian/tests/test_modules/is-weakset/*
- debian/tests/test_modules/which-collection/*
-Copyright: 2019 Inspect JS
+ 2022 Yadd <yadd@debian.org>
 License: Expat
 
 License: Expat
