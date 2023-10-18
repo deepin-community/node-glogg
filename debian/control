@@ -5,15 +5,11 @@ Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.deb
 Uploaders: Pirate Praveen <praveen@debian.org>
 Build-Depends:
  debhelper-compat (= 13)
- , mocha <!nocheck>
- , node-debbundle-es-to-primitive <!nocheck>
- , node-has <!nocheck>
- , node-isarray <!nocheck>
- , node-object-inspect <!nocheck>
- , node-sparkles (>= 1.0.0) <!nocheck>
- , node-tmatch <!nocheck>
  , dh-sequence-nodejs
-Standards-Version: 4.5.1
+ , mocha <!nocheck>
+ , node-expect (>= 28) <!nocheck>
+ , node-sparkles <!nocheck>
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-glogg
 Vcs-Git: https://salsa.debian.org/js-team/node-glogg.git
 Homepage: https://github.com/undertakerjs/glogg
@@ -24,8 +20,8 @@ Package: node-glogg
 Architecture: all
 Depends:
  ${misc:Depends}
- , node-sparkles (>= 1.0.0)
- , nodejs
+ , node-sparkles
+Multi-Arch: foreign
 Description: Global logging utility
  This module makes no assumptions about the log levels and they will always be
  emitted.  If you are looking to filter some out, your listeners will need to
